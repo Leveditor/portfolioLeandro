@@ -25,8 +25,8 @@ export default function Project() {
                                             <i className={item.iconTail}></i>
                                         </div>
                                         <div>
-                                            <a href="#" className='bg-cyan-500 p-1 pl-3 pr-3 mr-2 rounded'>Projeto no GitHub</a>
-                                            <a href="#" className='bg-cyan-500 p-1 pl-3 pr-3 rounded'>WEB</a>
+                                            <a href={item.linkGithub} target="_blank" className='bg-cyan-500 p-1 pl-3 pr-3 mr-2 rounded'>Projeto no GitHub</a>
+                                            <a href={item.link} target="_blank" className='bg-cyan-500 p-1 pl-3 pr-3 rounded'>WEB</a>
                                         </div>
                                     </div>
                                 </div>

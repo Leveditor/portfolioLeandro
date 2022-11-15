@@ -8,6 +8,8 @@ export const project = [
     { 
         nameProject: i18n.t('projectMovie.description'),
         technologies:  i18n.t('projectMovie.technologies'),
+        linkGithub: 'https://github.com/Leveditor/Movie2.0',
+        link: 'https://moviesprojectreact.netlify.app/',
         img: imgMovie, 
         iconHTML: 'devicon-html5-plain colored text-iconsProject pr-2',
         iconCss : 'devicon-css3-plain colored text-iconsProject pr-2',
@@ -17,6 +19,8 @@ export const project = [
     { 
         nameProject: i18n.t('projectLogin.description'),
         technologies: i18n.t('projectLogin.technologies'),
+        linkGithub: 'https://github.com/Leveditor/telaLogin',
+        link: 'https://jolly-fermi-db94ac.netlify.app/',
         img: imgLogin,
         iconHTML: 'devicon-html5-plain colored text-iconsProject pr-2',
         iconCss : 'devicon-css3-plain colored text-iconsProject', 
@@ -24,6 +28,8 @@ export const project = [
     { 
         nameProject: i18n.t('projectCal.description'),
         technologies: i18n.t('projectCal.technologies'),
+        linkGithub: 'https://github.com/Leveditor/Calculadora',
+        link: 'https://wonderful-raman-bddbb0.netlify.app/',
         img: imgCalc,
         iconHTML: 'devicon-html5-plain colored text-iconsProject pr-2',
         iconCss : 'devicon-css3-plain colored text-iconsProject pr-2',
@@ -32,6 +38,8 @@ export const project = [
     { 
         nameProject: i18n.t('projectCep.description'),
         technologies: i18n.t('projectCep.technologies'),
+        linkGithub: 'https://github.com/Leveditor/Cep',
+        link: 'https://react-cep.netlify.app/',
         img: imgCep, 
         iconHTML: 'devicon-html5-plain colored text-iconsProject pr-2',
         iconCss : 'devicon-css3-plain colored text-iconsProject pr-2',
