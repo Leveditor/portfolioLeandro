@@ -1,16 +1,6 @@
 import React from 'react';
 import { i18n } from '../../translate/i18n';
-
-const technologies = [
-    { name: 'Front-end', icon: 'devicon-html5-plain colored text-icons', iconCss : 'devicon-css3-plain colored text-icons pl-5', iconJs : 'devicon-javascript-plain colored text-icons pl-5'},
-    { name: 'Back-end', icon: 'devicon-php-plain colored text-icons' },
-    { name: i18n.t('skills.git'), icon: 'devicon-git-plain colored text-icons', githubIcon: 'devicon-github-original colored text-icons pl-5'},
-    { name: 'Framework Front-end', icon: 'devicon-react-original colored text-icons' },
-    { name: 'Framework Back-end', icon: 'devicon-laravel-plain colored text-icons' },
-    { name: i18n.t('skills.system'), icon: 'devicon-windows8-original colored text-icons', iconLinux: 'devicon-linux-plain colored text-icons pl-5'},
-    { name: 'Framework CSS', icon: 'devicon-bootstrap-plain colored text-icons',  iconTail: 'devicon-tailwindcss-plain colored text-icons pl-5'},
-    { name: 'Databases', icon: 'devicon-mysql-plain colored text-icons'},
-];
+import { technologies } from './skills';
 
 export default function About() {
     return (
