@@ -16,7 +16,29 @@ const messages = {
                 mySkills: 'My Skills',
                 system: 'Operational system',
                 git: 'Version control'
-            }
+            },
+
+            projectMovie: {
+                description: 'A web site about movie catalog',
+                technologies: 'Technologies used: HTML, CSS, tailwind and React.js/Hooks'
+            },
+
+            projectLogin: {
+                description: 'A simple login screen',
+                technologies: 'Technologies used: HTML, CSS and FlexBox'
+            },
+
+            projectCal: {
+                description: 'A working calculator with React.js',
+                technologies: 'Technologies used: HTML, CSS and FlexBox'
+            },
+
+            projectCep: {
+                description: 'Consult zip code',
+                technologies: 'Technologies used: HTML, CSS, Tailwind and React.js/Hooks'
+            },
+
+            
         }
     }
 }

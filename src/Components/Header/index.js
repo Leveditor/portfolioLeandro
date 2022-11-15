@@ -33,9 +33,9 @@ export default function Header() {
                       <a href="#skills" className='text-emerald-50 text-base	pt-1'>
                         {i18n.t('header.technologies')}
                       </a>
-                      <Link to='/' className='text-emerald-50 text-base	pt-1'>
+                      <a href="#project" className='text-emerald-50 text-base	pt-1'>
                          {i18n.t('header.projects')}
-                      </Link>
+                      </a>
                   </div>
                 </div>
               </div>
