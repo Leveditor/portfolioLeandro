@@ -25,8 +25,8 @@ export default function Project() {
                                             <i className={item.iconTail}></i>
                                         </div>
                                         <div>
-                                            <a href={item.linkGithub} rel="noreferrer" target="_blank" className='bg-cyan-500 p-1 pl-3 pr-3 mr-2 rounded'>Projeto no GitHub</a>
-                                            <a href={item.link} rel="noreferrer" target="_blank" className='bg-cyan-500 p-1 pl-3 pr-3 rounded'>WEB</a>
+                                            <a href={item.linkGithub} rel="noreferrer" target="_blank" className='bg-cyan-500 hover:bg-blue-900 p-1 pl-3 pr-3 mr-2 rounded'>Projeto no GitHub</a>
+                                            <a href={item.link} rel="noreferrer" target="_blank" className='bg-cyan-500 hover:bg-blue-900 p-1 pl-3 pr-3 rounded'>WEB</a>
                                         </div>
                                     </div>
                                 </div>
@@ -38,7 +38,7 @@ export default function Project() {
 
             <section>
                 <div className='flex justify-center mt-4'>
-                <a href="https://github.com/Leveditor" className='text-emerald-50 bg-cyan-500 p-2 rounded'
+                <a href="https://github.com/Leveditor" className='hover:bg-blue-900 text-emerald-50 bg-cyan-500 p-2 rounded'
                      target="_blank" rel="noreferrer">{i18n.t('skills.projectGithub')}</a>
                 </div>
             </section>
