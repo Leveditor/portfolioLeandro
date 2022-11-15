@@ -13,7 +13,9 @@ const messages = {
             },
 
             skills: {
-                mySkills: 'Minhas Skills'
+                mySkills: 'Minhas Skills',
+                system: 'Sistema operacional',
+                git: 'Controle de versão'
             }
         }
     }
