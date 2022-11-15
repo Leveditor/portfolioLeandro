@@ -12,7 +12,7 @@ export default function Project() {
                     <div className='md:grid grid-rows-2 grid-flow-col gap-5'>
                         {project.map((item) => {
                             return (
-                                <div className='border-2 rounded border-cyan-500 p-4 text-emerald-50 mt-3 md:mt-0'>
+                                <div key={item.id} className='border-2 rounded border-cyan-500 p-4 text-emerald-50 mt-3 md:mt-0'>
                                     <img src={item.img} alt="img project"/>
                                     <p className='pt-3'>{item.nameProject}</p>
                                     <p className='pt-3 pb-3'>{item.technologies}</p>

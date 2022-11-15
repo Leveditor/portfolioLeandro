@@ -6,6 +6,7 @@ import imgCep from '../../Img/cep.png';
 
 export const project = [
     { 
+        id: 0,
         nameProject: i18n.t('projectMovie.description'),
         technologies:  i18n.t('projectMovie.technologies'),
         linkGithub: 'https://github.com/Leveditor/Movie2.0',
@@ -17,6 +18,7 @@ export const project = [
         iconTail: 'devicon-tailwindcss-plain colored text-iconsProject'
     },
     { 
+        id: 1,
         nameProject: i18n.t('projectLogin.description'),
         technologies: i18n.t('projectLogin.technologies'),
         linkGithub: 'https://github.com/Leveditor/telaLogin',
@@ -26,6 +28,7 @@ export const project = [
         iconCss : 'devicon-css3-plain colored text-iconsProject', 
     },
     { 
+        id: 2,
         nameProject: i18n.t('projectCal.description'),
         technologies: i18n.t('projectCal.technologies'),
         linkGithub: 'https://github.com/Leveditor/Calculadora',
@@ -36,6 +39,7 @@ export const project = [
         iconReact: 'devicon-react-original colored text-iconsProject'
     },
     { 
+        id: 3,
         nameProject: i18n.t('projectCep.description'),
         technologies: i18n.t('projectCep.technologies'),
         linkGithub: 'https://github.com/Leveditor/Cep',

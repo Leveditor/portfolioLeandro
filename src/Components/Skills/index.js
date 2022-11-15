@@ -11,7 +11,7 @@ export default function About() {
                 <div className='md:grid grid-rows-3 grid-flow-col gap-5'>
                     {technologies.map((item) => {
                         return (
-                            <div className='mt-12 md:mt-0'>
+                            <div key={item.id} className='mt-12 md:mt-0'>
                                 <p className='text-emerald-50 text-skills2 border-l-4 border-cyan-500 pl-2 mb-5'>{item.name} </p>
                                 <i className={item.icon}></i>
                                 <i className={item.iconCss}></i>
