@@ -41,6 +41,4 @@ export const technologies = [
     },
 ];
 
-export default {
-    technologies,
-}
+export default technologies;

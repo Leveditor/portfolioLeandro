@@ -48,7 +48,4 @@ export const project = [
     },
 ];
 
-
-export default {
-    project,
-}
+export default project;
