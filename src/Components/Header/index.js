@@ -48,13 +48,13 @@ export default function Header() {
                 Leandro Barbosa
               </Link>
             <div className="inline-flex items-center">
-                <Link to='/' className='text-emerald-50 text-base pr-5 pl-2'>
+                <Link to='#about' className='text-emerald-50 text-base pr-5 pl-2'>
                     {i18n.t('header.about')}
                 </Link>
-                <Link to='/' className='text-emerald-50 text-base pr-5'>
+                <Link to='#skills' className='text-emerald-50 text-base pr-5'>
                     {i18n.t('header.technologies')}
                 </Link>
-                <Link to='/' className='text-emerald-50 text-base'>
+                <Link to='#project' className='text-emerald-50 text-base'>
                     {i18n.t('header.projects')}
                 </Link>
             </div>
