@@ -13,7 +13,7 @@ export default function Project() {
                         {project.map((item) => {
                             return (
                                 <div className='border-2 rounded border-cyan-500 p-4 text-emerald-50 mt-3 md:mt-0'>
-                                    <img src={item.img} />
+                                    <img src={item.img} alt="img project"/>
                                     <p className='pt-3'>{item.nameProject}</p>
                                     <p className='pt-3 pb-3'>{item.technologies}</p>
                                   
@@ -25,8 +25,8 @@ export default function Project() {
                                             <i className={item.iconTail}></i>
                                         </div>
                                         <div>
-                                            <a href={item.linkGithub} target="_blank" className='bg-cyan-500 p-1 pl-3 pr-3 mr-2 rounded'>Projeto no GitHub</a>
-                                            <a href={item.link} target="_blank" className='bg-cyan-500 p-1 pl-3 pr-3 rounded'>WEB</a>
+                                            <a href={item.linkGithub} rel="noreferrer" target="_blank" className='bg-cyan-500 p-1 pl-3 pr-3 mr-2 rounded'>Projeto no GitHub</a>
+                                            <a href={item.link} rel="noreferrer" target="_blank" className='bg-cyan-500 p-1 pl-3 pr-3 rounded'>WEB</a>
                                         </div>
                                     </div>
                                 </div>
@@ -39,7 +39,7 @@ export default function Project() {
             <section>
                 <div className='flex justify-center mt-4'>
                 <a href="https://github.com/Leveditor" className='text-emerald-50 bg-cyan-500 p-2 rounded'
-                     target="_blank">{i18n.t('skills.projectGithub')}</a>
+                     target="_blank" rel="noreferrer">{i18n.t('skills.projectGithub')}</a>
                 </div>
             </section>
         </>
