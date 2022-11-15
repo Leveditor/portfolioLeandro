@@ -43,15 +43,15 @@ export default function Header() {
           </div>
 
           {/* Mobile menu */}
-          <Disclosure.Panel className="sm:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 text-left">
-                <Link to='/' className='text-emerald-50 text-lg'>
-                    Leandro Barbosa
-                </Link>
-                <Link to='/' className='text-emerald-50 text-base'>
+          <Disclosure.Panel className="sm:hidden pb-5">
+              <Link to='/' className='text-emerald-50 text-lg pl-2'>
+                Leandro Barbosa
+              </Link>
+            <div className="inline-flex items-center">
+                <Link to='/' className='text-emerald-50 text-base pr-5 pl-2'>
                     {i18n.t('header.about')}
                 </Link>
-                <Link to='/' className='text-emerald-50 text-base'>
+                <Link to='/' className='text-emerald-50 text-base pr-5'>
                     {i18n.t('header.technologies')}
                 </Link>
                 <Link to='/' className='text-emerald-50 text-base'>
