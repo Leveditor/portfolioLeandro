@@ -27,9 +27,9 @@ export default function Header() {
                       <Link to='/' className='text-emerald-50 text-lg'>
                           Leandro Barbosa
                       </Link>
-                      <Link to='/' className='text-emerald-50 text-base	pt-1'>
+                      <a href="#about" className='text-emerald-50 text-base	pt-1'>
                         {i18n.t('header.about')}
-                      </Link>
+                      </a>
                       <Link to='/' className='text-emerald-50 text-base	pt-1'>
                         {i18n.t('header.technologies')}
                       </Link>

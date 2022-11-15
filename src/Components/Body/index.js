@@ -1,9 +1,11 @@
 import React from 'react';
+import About from '../About';
+
 
 export default function Body() {
     return (
         <>
-            <h1>funcionou</h1>
+           <About />
         </>
     )
 }
