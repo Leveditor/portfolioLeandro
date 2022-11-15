@@ -13,6 +13,7 @@ module.exports = {
       skills: '1.80rem',
       skills2: '2.0rem',
       icons: '3.50rem',
+      iconsFooter: '2.80rem',
       iconsProject: '2.00rem',
     },
   },
