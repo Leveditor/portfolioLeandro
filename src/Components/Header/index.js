@@ -30,9 +30,9 @@ export default function Header() {
                       <a href="#about" className='text-emerald-50 text-base	pt-1'>
                         {i18n.t('header.about')}
                       </a>
-                      <Link to='/' className='text-emerald-50 text-base	pt-1'>
+                      <a href="#skills" className='text-emerald-50 text-base	pt-1'>
                         {i18n.t('header.technologies')}
-                      </Link>
+                      </a>
                       <Link to='/' className='text-emerald-50 text-base	pt-1'>
                          {i18n.t('header.projects')}
                       </Link>

@@ -8,7 +8,10 @@ module.exports = {
     fontSize: {
       sm: '0.8rem',
       lg: '1.25rem',
-      xl: ' 2.50rem',
+      xl: '2.50rem',
+      skills: '1.80rem',
+      skills2: '2.0rem',
+      icons: '4.00rem'
     }
   },
   plugins: [],
