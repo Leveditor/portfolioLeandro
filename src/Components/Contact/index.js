@@ -3,7 +3,7 @@ import React from "react";
 export default function Contact() {
     return (
         <>
-            <footer className="bg-gray-800 flex justify-center p-3 mt-12">
+            <footer className="bg-gray-900 flex justify-center p-3 mt-12">
                 <a href="https://github.com/Leveditor" target="_blank">
                     <i className="devicon-github-original text-iconsFooter pr-3 text-emerald-50"></i>
                 </a>
