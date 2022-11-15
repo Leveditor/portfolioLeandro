@@ -15,7 +15,8 @@ const messages = {
             skills: {
                 mySkills: 'My Skills',
                 system: 'Operational system',
-                git: 'Version control'
+                git: 'Version control',
+                projectGithub: 'See all projects on Github',
             },
 
             projectMovie: {
