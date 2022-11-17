@@ -6,7 +6,10 @@ export default function Form() {
     const { register, handleSubmit, reset, formState: { errors }, } = useForm();
     const [ inputStyle, setInputStyle ] = useState('w-60 border border-stone-600 rounded mb-4 pl-2 pb-1 shadow-lg shadow-stone-500/50');
     const [ textarea, setTextarea ] = useState('border border-stone-600 rounded pl-2 shadow-lg shadow-stone-500/50');
-  
+    const [ messageForm, setMessageForm ] = useState('');
+    const [ messageStyle, setMessageStyle ] = useState('')
+
+
     const sendEmail = (data) => {
         const templetePramns = {
             from_name: data.name,
@@ -21,8 +24,10 @@ export default function Form() {
                 email: '',
                 message: '',
               });
-              setInputStyle('w-60 border-2 border-green-700 rounded mb-4 pl-2 pb-1 shadow-lg shadow-green-500/50');
-              setTextarea('border-2 border-green-700 rounded pl-2 shadow-lg shadow-green-500/50');
+              setInputStyle('w-60 border-2 border-green-700 shadow-lg shadow-green-500/50 rounded mb-4 pl-2 pb-1');
+              setTextarea('border-2 border-green-700 shadow-lg shadow-green-500/50 rounded pl-2');
+              setMessageForm('Messagem enviada com sucesso');
+              setMessageStyle('border border-green-700 bg-green-500 shadow-lg shadow-green-500/50 rounded text-green-200 pr-32 pl-32')
         }, (err) => {
             console.log('error ', err)
         })
@@ -49,11 +54,16 @@ export default function Form() {
                     placeholder='Digite sua mensagem' 
                     {...register("message", { required: true })} />
 
+                <div className="flex justify-center mt-5">
+                    <span className={messageStyle}>{messageForm}</span>
+                </div>
+
                 <div className='flex justify-center mt-5'>
                     <button 
                     type='submit' 
                     className='bg-zinc-600 hover:bg-zinc-800 shadow-lg shadow-zinc-600/50 text-emerald-50 p-1 pl-12 pr-12 rounded'>Enviar</button>
                 </div>
+                
             </form>
         </>
     )
