@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import { useForm } from "react-hook-form";
 
 export default function Form() {
-    const { register, handleSubmit, reset, formState: { errors }, } = useForm();
+    const { register, handleSubmit, reset } = useForm();
     const [ inputStyle, setInputStyle ] = useState('w-60 border border-stone-600 rounded mb-4 pl-2 pb-1 shadow-lg shadow-stone-500/50');
     const [ textarea, setTextarea ] = useState('border border-stone-600 rounded pl-2 shadow-lg shadow-stone-500/50');
     const [ messageForm, setMessageForm ] = useState('');
