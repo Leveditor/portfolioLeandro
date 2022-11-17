@@ -2,6 +2,7 @@ import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../translate/i18n';
+import ContactModal from '../ContactModal';
 
 export default function Header() {
   return (
@@ -36,6 +37,7 @@ export default function Header() {
                       <a href="#project" className='text-emerald-50 text-base	pt-1'>
                          {i18n.t('header.projects')}
                       </a>
+                      <ContactModal />
                   </div>
                 </div>
               </div>
