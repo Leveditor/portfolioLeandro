@@ -5,8 +5,8 @@ import { i18n } from '../../translate/i18n';
 
 export default function Form() {
     const { register, handleSubmit, reset } = useForm();
-    const [ inputStyle, setInputStyle ] = useState('w-60 border border-stone-600 rounded mb-4 pl-2 pb-1 shadow-lg shadow-stone-500/50');
-    const [ textarea, setTextarea ] = useState('border border-stone-600 rounded pl-2 shadow-lg shadow-stone-500/50');
+    const [ inputStyle, setInputStyle ] = useState('w-60 border border-stone-600 rounded mb-4 pl-2 pb-1 shadow-lg shadow-stone-500/50 w-full');
+    const [ textarea, setTextarea ] = useState('border border-stone-600 rounded pl-2 shadow-lg shadow-stone-500/50 w-full');
     const [ messageForm, setMessageForm ] = useState('');
     const [ messageStyle, setMessageStyle ] = useState('');
 
@@ -25,10 +25,10 @@ export default function Form() {
                 email: '',
                 message: '',
               });
-              setInputStyle('w-60 border-2 border-green-700 shadow-lg shadow-green-500/50 rounded mb-4 pl-2 pb-1');
-              setTextarea('border-2 border-green-700 shadow-lg shadow-green-500/50 rounded pl-2');
+              setInputStyle('w-60 border-2 border-green-700 shadow-lg shadow-green-500/50 rounded mb-4 pl-2 pb-1 w-full');
+              setTextarea('border-2 border-green-700 shadow-lg shadow-green-500/50 rounded pl-2 w-full');
               setMessageForm('Messagem enviada com sucesso');
-              setMessageStyle('border border-green-700 bg-green-500 shadow-lg shadow-green-500/50 rounded text-green-200 pr-32 pl-32')
+              setMessageStyle('border border-green-700 bg-green-500 shadow-lg shadow-green-500/50 rounded text-green-200 text-center w-full')
         }, (err) => {
             console.log('error ', err)
         })
@@ -37,7 +37,7 @@ export default function Form() {
     return (
         <>
             <form onSubmit={handleSubmit(sendEmail)}>
-                <div className='grid grid-cols-2 gap-4'>
+                <div className='md:grid grid-cols-2 gap-4'>
                     <input 
                     className={inputStyle}
                     placeholder={i18n.t('formContact.name')}
@@ -51,7 +51,7 @@ export default function Form() {
 
                     <textarea 
                     className={textarea}
-                    rows="6" cols="47" 
+                    rows="6"
                     placeholder={i18n.t('formContact.messageForm')}
                     {...register("message", { required: true })} />
 
