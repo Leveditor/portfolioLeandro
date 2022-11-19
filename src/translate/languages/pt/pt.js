@@ -39,10 +39,25 @@ const messages = {
                 technologies: 'Tecnologias usadas: HTML, CSS, Tailwind e React.js/Hooks'
             },
 
+            projectQrcode: {
+                description: 'Gerador de Qrcode com React.js',
+                technologies: 'Tecnologias usadas: HTML, CSS e React.js/Hooks'
+            },
+
+            projectForm: {
+                description: 'Um simples form de validação with React.js',
+                technologies: 'Tecnologias usadas: HTML, CSS, React.js/Hooks, Form Hooks e bootstrap'
+            },
+
+            projectCard: {
+                projectGithub: 'Projeto no GitHub',
+                projectOnline: 'Projeto online'
+            },
+
             formContact: {
                 name: 'Digite seu nome',
                 email: 'Digite seu e-mail',
-                messageForm: 'Digite sua menssagem',
+                messageForm: 'Digite sua mensagem',
                 send: 'Enviar',
                 contact: 'Contato'
             }
