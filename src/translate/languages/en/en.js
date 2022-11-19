@@ -39,7 +39,13 @@ const messages = {
                 technologies: 'Technologies used: HTML, CSS, Tailwind and React.js/Hooks'
             },
 
-            
+            formContact: {
+                name: 'Type your name',
+                email: 'Type your email',
+                messageForm: 'Type your message',
+                send: 'Send',
+                contact: 'Contact'
+            }
         }
     }
 }

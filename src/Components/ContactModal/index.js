@@ -1,6 +1,6 @@
 import { Fragment, useRef, useState } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
-
+import { i18n } from '../../translate/i18n';
 import Forms from './form';
 
 
@@ -11,8 +11,8 @@ export default function Contact() {
   
   return (
     <>
-      <button  className='text-emerald-50 text-base	pt-1' onClick={() => setOpen(true)} >
-        Contato
+      <button  className='text-emerald-50 text-base pl-2' onClick={() => setOpen(true)} >
+      {i18n.t('formContact.contact')}
       </button>
 
       <Transition.Root show={open} as={Fragment}>

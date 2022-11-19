@@ -49,16 +49,17 @@ export default function Header() {
               <Link to='/' className='text-emerald-50 text-lg pl-2'>
                 Leandro Barbosa
               </Link>
-            <div className="inline-flex items-center">
-                <Link to='#about' className='text-emerald-50 text-base pr-5 pl-2'>
+            <div className="items-center">
+                <a href="#about" className='text-emerald-50 text-base pl-2'>
                     {i18n.t('header.about')}
-                </Link>
-                <Link to='#skills' className='text-emerald-50 text-base pr-5'>
+                </a><br/>
+                <a href="#skills" className='text-emerald-50 text-base pl-2 pt-5'>
                     {i18n.t('header.technologies')}
-                </Link>
-                <Link to='#project' className='text-emerald-50 text-base'>
+                </a><br/>
+                <a href="#project" className='text-emerald-50 text-base pl-2 pt-5'>
                     {i18n.t('header.projects')}
-                </Link>
+                </a><br/>
+                <ContactModal />
             </div>
           </Disclosure.Panel>
         </>
