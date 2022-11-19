@@ -37,6 +37,13 @@ const messages = {
             projectCep: {
                 description: 'Consultar CEP',
                 technologies: 'Tecnologias usadas: HTML, CSS, Tailwind e React.js/Hooks'
+            },
+
+            formContact: {
+                name: 'Digite seu nome',
+                email: 'Digite seu e-mail',
+                messageForm: 'Digite sua menssagem',
+                send: 'Enviar'
             }
 
         }
