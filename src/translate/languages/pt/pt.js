@@ -43,7 +43,8 @@ const messages = {
                 name: 'Digite seu nome',
                 email: 'Digite seu e-mail',
                 messageForm: 'Digite sua menssagem',
-                send: 'Enviar'
+                send: 'Enviar',
+                contact: 'Contato'
             }
 
         }

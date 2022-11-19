@@ -43,7 +43,8 @@ const messages = {
                 name: 'Type your name',
                 email: 'Type your email',
                 messageForm: 'Type your message',
-                send: 'Send'
+                send: 'Send',
+                contact: 'Contact'
             }
         }
     }
