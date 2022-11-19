@@ -9,7 +9,7 @@ export default function Project() {
             <section>
                 <div id="project" className='pt-11 container mx-auto px-4'>
                     <p className='text-center text-skills text-cyan-500 mb-5'>{i18n.t('header.projects')}</p>
-                    <div className='md:grid grid-rows-2 grid-flow-col gap-5'>
+                    <div className='md:grid grid-cols-2 gap-5'>
                         {project.map((item) => {
                             return (
                                 <div key={item.id} className='border-2 rounded border-cyan-500 p-4 text-emerald-50 mt-3 md:mt-0'>
@@ -23,10 +23,11 @@ export default function Project() {
                                             <i className={item.iconCss}></i>
                                             <i className={item.iconReact}></i>
                                             <i className={item.iconTail}></i>
+                                            <i className={item.iconBootstrap}></i>
                                         </div>
                                         <div>
-                                            <a href={item.linkGithub} rel="noreferrer" target="_blank" className='bg-cyan-500 hover:bg-blue-900 p-1 pl-3 pr-3 mr-2 rounded'>Projeto no GitHub</a>
-                                            <a href={item.link} rel="noreferrer" target="_blank" className='bg-cyan-500 hover:bg-blue-900 p-1 pl-3 pr-3 rounded'>WEB</a>
+                                            <a href={item.linkGithub} rel="noreferrer" target="_blank" className='bg-cyan-500 hover:bg-blue-900 p-1 pl-3 pr-3 mr-2 rounded'>{i18n.t('projectCard.projectGithub')}</a>
+                                            <a href={item.link} rel="noreferrer" target="_blank" className='bg-cyan-500 hover:bg-blue-900 p-1 pl-3 pr-3 rounded'>{i18n.t('projectCard.projectOnline')}</a>
                                         </div>
                                     </div>
                                 </div>
