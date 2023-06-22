@@ -40,7 +40,7 @@ export default {
                 },
                 { 
                     id: 2,
-                    name: 'Framework Back-end', 
+                    name: 'Controle de versão', 
                     icon: 'devicon-git-plain colored text-icons', 
                     githubIcon: 'devicon-github-original colored text-icons pl-5'
                 },
@@ -52,7 +52,7 @@ export default {
                 },
                 { 
                     id: 4,
-                    name: 'Controle de versão', 
+                    name: 'Framework Back-end', 
                     icon: 'devicon-laravel-plain colored text-icons' 
                 },
                 { 
