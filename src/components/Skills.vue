@@ -52,7 +52,7 @@ export default {
                 },
                 { 
                     id: 4,
-                    name: 'Framework Back-end', 
+                    name: 'Controle de versão', 
                     icon: 'devicon-laravel-plain colored text-icons' 
                 },
                 { 
