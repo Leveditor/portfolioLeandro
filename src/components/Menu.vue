@@ -50,8 +50,8 @@
 </template>
 
 <script>
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue';
+import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
 
 export default {
     name: 'MenuName',
