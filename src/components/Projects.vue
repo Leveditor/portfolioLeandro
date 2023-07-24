@@ -45,7 +45,7 @@ export default {
                     description: 'Sistema de reservas de hotéis exclusivo para funcionários da Porto Seguro. Como desenvolvedor responsável pelo Front-end, criei esta aplicação que oferece aos funcionários da Porto Seguro uma plataforma intuitiva e conveniente para realizar suas reservas de hospedagem.',
                     FrontEnd: 'Front-end: Vue.js, HTML, CSS e Tailwind',
                     BackEnd: 'Back-end: PHP, Laravel',
-                    link: 'http://portoseguro.incentivehoteis.com.br/'
+                    link: 'http://porto.incentivehoteis.com.br/'
                 },
                 { 
                     id: 2,
